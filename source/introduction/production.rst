@@ -26,9 +26,9 @@ Metabeam16S以及Metabeam32S 是由 Richbeam 团队研发的新款面向工业�
 ------------
 
 二维激光雷达
-~~~~~~~~~~~~~~~~~~~~~~
-Lakibeam
-^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lakibeam1S/Lakibeam1/Lakibeam1L
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 123456
 
 `Lakibeam1 <https://www.richbeam.com/lakibeam1>`_
@@ -36,3 +36,15 @@ Lakibeam
 `Lakibeam1L <https://www.richbeam.com/lakibeam1l>`_
 
 `Lakibeam1S <https://www.richbeam.com/lakibeam1s>`_
+
+三维激光雷达
+~~~~~~~~~~~~~~~~~~~~~~
+Metabeam16/Metabeam32/Metabeam64
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+123456
+
+Lakibeam128
+^^^^^^^^^^^^^
+
+123456
