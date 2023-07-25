@@ -8,11 +8,12 @@ Welcome to Richbeam!
 
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 4
    :caption: Richbeam
    :numbered:
 
    introduction/production.rst
+   introduction/123.rst
 
 
 .. toctree::
