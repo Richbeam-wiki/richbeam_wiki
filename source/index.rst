@@ -8,7 +8,7 @@ Welcome to Richbeam!
 
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 0
    :caption: Richbeam
    :numbered:
 
