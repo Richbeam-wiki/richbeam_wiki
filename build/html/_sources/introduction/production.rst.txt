@@ -27,24 +27,48 @@ Metabeam16S以及Metabeam32S 是由 Richbeam 团队研发的新款面向工业�
 
 二维激光雷达
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Lakibeam1S/Lakibeam1/Lakibeam1L
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-123456
+Lakibeam系列
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Lakibeam 系列产品由 Richbeam 团队研发的首款面向商业和工业领域的高性价比二维导航激光雷达。
 
-`Lakibeam1 <https://www.richbeam.com/lakibeam1>`_
+- Lakibeam1
 
-`Lakibeam1L <https://www.richbeam.com/lakibeam1l>`_
+LakiBeam1是由锐驰智光基于脉冲飞行时间（pToF，pulsedTime of Flight）原理设计的小型化高性能激光雷达。探测距离可达25m，视场角为270°，角分辨率可达0.1°，点频最高为43.2k。详情请见： `lakibeam1 <https://www.richbeam.com/lakibeam1/>`_
 
-`Lakibeam1S <https://www.richbeam.com/lakibeam1s>`_
+- Lakibeam1L
+
+LakiBeam1是由锐驰智光基于脉冲飞行时间（pToF，pulsedTime of Flight）原理设计的小型化高性能激光雷达。探测距离可达40m，视场角为270°，角分辨率可达0.1°，点频最高为43.2k。详情请见： `lakibeam1L <https://www.richbeam.com/lakibeam1l/>`_
+
+- Lakibeam1S
+
+LakiBeam1是由锐驰智光基于脉冲飞行时间（pToF，pulsedTime of Flight）原理设计的小型化高性能激光雷达。探测距离可达15m，视场角为270°，角分辨率可达0.2°，点频最高为18k。详情请见： `lakibeam1S <https://www.richbeam.com/lakibeam1s//>`_
+
+.. image:: ../image/lakibeam.jpg
 
 三维激光雷达
 ~~~~~~~~~~~~~~~~~~~~~~
-Metabeam16/Metabeam32/Metabeam64
+Metabeam系列
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MetaBeam系列产品是由锐驰智光（北京）科技有限公司基于脉冲飞行时间（Time of Flight）原理设计的多线束高性能激光雷达。本产品主要面向机器人环境感知、地图测绘、工业过程监测、安防等领域。
 
-123456
+- Metabeam16
+
+Metabeam16集成了16个激光收发模组，通过集成式激光收发模组快速旋转的同时发射激光束对外界环境进行持续性的扫描。探测距离可达80m，垂直视场角为31°，垂直角分辨率为2°。详情请见： `Metabeam16 <https://www.richbeam.com/metabeam32/>`_
+
+- Metabeam32
+
+Metabeam32集成了32个激光收发模组，通过集成式激光收发模组快速旋转的同时发射激光束对外界环境进行持续性的扫描。探测距离可达120m，垂直视场角为31°，垂直角分辨率为1°。详情请见： `Metabeam32 <https://www.richbeam.com/metabeam32/>`_
+
+- Metabeam64
+
+Metabeam64集成了64个激光收发模组，通过集成式激光收发模组快速旋转的同时发射激光束对外界环境进行持续性的扫描。探测距离可达260m，垂直视场角为31.5°，垂直角分辨率为0.5°。详情请见： `Metabeam64 <https://www.richbeam.com/lakibeam64/>`_
+
+
 
 Lakibeam128
 ^^^^^^^^^^^^^
 
-123456
+Lakibeam128是由锐驰智光（北京）科技有限公司基于脉冲飞行时间（Time of Flight）原理设计的多线束高性能激光雷达。本产品主要面向机器人环境感知、地图测绘、工业过程监测、安防等领域。探测距离可达 m，垂直视场角为25°，水平视场角为120°。
+详情请见： `Lakibeam128 <https://www.richbeam.com/lakibeam128/>`_
+
+
