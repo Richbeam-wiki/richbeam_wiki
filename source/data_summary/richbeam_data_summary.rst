@@ -15,7 +15,7 @@ Lakibeam ROS Driver
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Lakibeam ROS Driver 由锐驰智光（北京）科技有限公司针对
-LakiBeam 系列单线激光雷达开发。启动后，该驱动将监听雷达发送的 UDP
+Lakibeam 系列单线激光雷达开发。启动后，该驱动将监听雷达发送的 UDP
 数据包，解析数据并将点云发布到 ROS 的/scan 或/pcd 话题中。详情及使用见 ：`Lakibeam ROS1 <https://gitee.com/richbeam/Lakibeam1-ROS1>`_
 或 `Lakibeam ROS2 <https://gitee.com/richbeam/Lakibeam1-ROS2>`_
 
@@ -26,7 +26,7 @@ LakiBeam 系列单线激光雷达开发。启动后，该驱动将监听雷达�
 RBview
 ~~~~~~~~~~~~~~~~~~~~~~
 
-RBview 是为Lakibeam系列单线激光雷达设计的点云可视化软件，可用于实时显示连接至计算机的所有激光探测测距仪点云数据。
+RBview 是为Lakibeam系列单线激光雷达设计的点云可视化软件，可用于实时显示连接至计算机的所有激光探测仪点云数据。
 通过RBview，用户可轻松查看、记录并储存点云数据，以便后期使用。
 下载地址： `RBviewSetup <https://gitee.com/richbeam/RBView>`_
 
@@ -48,19 +48,8 @@ Lakibeam 相关
 - Lakibeam ROS2驱动用户手册下载地址： `Lakibeam ROS2驱动用户手册 <https://gitee.com/richbeam/Lakibeam1-ROS2-UserManual-CN>`_
 - Lakibeam 3D尺寸模型图下载地址： `Lakibeam 3D尺寸模型图 <https://gitee.com/richbeam/lakibeam1-3D>`_
 
-Lorabeam
-~~~~~~~~~~~~~~~~~~~~~~
-
-- Lorabeam 用户手册下载地址：
-
-
-Korabeam
-~~~~~~~~~~~~~~~~~~~~~~
-
-- Korabeam 用户手册下载地址：
-
 
 Metabeam
 ~~~~~~~~~~~~~~~~~~~~~~
 
-- Metabeam 用户手册下载地址：
+- Metabeam 用户手册下载地址： `Metabeam 用户手册 <https://gitee.com/richbeam/Metabeam32-Userguide>`_

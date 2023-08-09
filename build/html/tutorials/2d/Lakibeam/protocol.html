@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>1.1.1. LakiBeam &mdash; richbeam_wiki_cn v0.1 文档</title>
+  <title>1.1. LakiBeam &mdash; richbeam_wiki_cn v0.1 文档</title>
       <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -20,8 +20,8 @@
     <script src="../../../_static/js/theme.js"></script>
     <link rel="index" title="索引" href="../../../genindex.html" />
     <link rel="search" title="搜索" href="../../../search.html" />
-    <link rel="next" title="1.1.2. Lorabeam" href="../Lorabeam/protocol.html" />
-    <link rel="prev" title="1.1. 导航产品" href="../index.html" /> 
+    <link rel="next" title="1. Matebeam系列" href="../../3d/index.html" />
+    <link rel="prev" title="1. 导航产品" href="../index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -51,15 +51,14 @@
 <p class="caption" role="heading"><span class="caption-text">基础教程</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../index.html">1. 二维产品系列</a><ul class="current">
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">1.1. 导航产品</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">1.1.1. LakiBeam</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id1">1.1.1.1. LakiBeam</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">1. 导航产品</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">1.1. LakiBeam</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">1.1.1. 系统配置</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">1.1.2. 数据接口</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../Lorabeam/protocol.html">1.1.2. Lorabeam</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../index.html#id2">1.2. 避障产品</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../index.html#id2">2. 三维产品系列</a></li>
@@ -89,8 +88,8 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../../index.html"><span class="section-number">1. </span>二维产品系列</a></li>
-          <li class="breadcrumb-item"><a href="../index.html"><span class="section-number">1.1. </span>导航产品</a></li>
-      <li class="breadcrumb-item active"><span class="section-number">1.1.1. </span>LakiBeam</li>
+          <li class="breadcrumb-item"><a href="../index.html"><span class="section-number">1. </span>导航产品</a></li>
+      <li class="breadcrumb-item active"><span class="section-number">1.1. </span>LakiBeam</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../../_sources/tutorials/2d/Lakibeam/protocol.rst.txt" rel="nofollow"> 查看页面源码</a>
       </li>
@@ -101,12 +100,74 @@
            <div itemprop="articleBody">
              
   <section id="lakibeam">
-<h1><span class="section-number">1.1.1. </span>LakiBeam<a class="headerlink" href="#lakibeam" title="此标题的永久链接"></a></h1>
+<h1><span class="section-number">1.1. </span>LakiBeam<a class="headerlink" href="#lakibeam" title="此标题的永久链接"></a></h1>
 <section id="id1">
-<h2><span class="section-number">1.1.1.1. </span>LakiBeam<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h2>
+<h2><span class="section-number">1.1.1. </span>系统配置<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h2>
+<p>LakiBeam系列产品除了可以通过USB连接外还提供了一条带有RJ45插座和DC 5.5-2.1插座的电缆，用户可通过此电缆与设备建立电源及数据连接。将设备线缆的RJ45插座通过网线接入网络。为了保证连接稳定性，请选择cat.5e及以上规格的网线。将电源连接到DC 5.5-2.1插座内。</p>
 <section id="id2">
-<h3><span class="section-number">1.1.1.1.1. </span>LakiBeam<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h3>
-<p>LakiBeam</p>
+<h3><span class="section-number">1.1.1.1. </span>建立连接<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h3>
+<ul class="simple">
+<li><p>网线电源连接</p></li>
+</ul>
+<p>初次使用LakiBeam系列产品时可通过网线和电源与计算机建立连接，产品默认的网络配置为静态模式，设备端的IP地址为出厂设定值192.168.198.2（Device端），需要先将连接雷达与计算机以太网端口的IP地址手动更改为192.168.198.1（Host端），此时通过计算机的web浏览器访问{<a class="reference external" href="http://192.168.198.2">http://192.168.198.2</a>} 即可访问设备内建的web服务，如下图所示：</p>
+<figure class="align-default">
+<img alt="../../../_images/connect-pc.png" src="../../../_images/connect-pc.png" />
+</figure>
+<p>注：客户可以根据需求自行修改雷达ip地址，但需要保证雷达ip和计算机ip在同一网段，且自行设置雷达ip地址不支持8网段。</p>
+<p>关于雷达和计算机建立连接更详细的说明可以参见： <a class="reference external" href="https://gitee.com/richbeam/Lakibeam1-Userguide">LakiBeam单线系列激光雷达操作教程（Windows版）</a></p>
+<ul class="simple">
+<li><p>USB Type-C型数据线连接</p></li>
+</ul>
+<p>Windows/Linux 系统</p>
+<p>使用USB Type-C型数据线直连设备和计算机。妥善建立连接后设备需要大约30秒完成启动及自检，自检完成后计算机将识别到一个U盘以及一个网络适配器（RNDIS驱动），设备在用户端实现了一个虚拟网卡，设备内部给这个虚拟网卡通过内建的DHCP服务器固定分配一个192.168.8.1的IP地址（Host端），而设备端的IP地址则为固定的192.168.8.2（Device端）。此时通过计算机的web浏览器访问 {<a class="reference external" href="http://192.168.8.2">http://192.168.8.2</a>} 即可访问设备内建的web服务。</p>
+<p>macOS操作系统</p>
+<p>macOS操作系统需要额外在识别到的U盘的根目录内建立一个名为osx.apple的文件，安全弹出设备并断电重启后macOS操作系统将会识别到一个CDC-ECM设备。然后通过计算机的web浏览器访问 {<a class="reference external" href="http://192.168.8.2">http://192.168.8.2</a>} 即可访问设备内建的web服务。</p>
+<p>内建的web服务提供了仪表板、雷达设置、固件更新等功能。</p>
+</section>
+</section>
+<section id="id3">
+<h2><span class="section-number">1.1.2. </span>数据接口<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
+<p>Lakibeam系列产品将在启动测距状态下持续向Host端发送测距数据。通信采用以太网为传输介质，数据包基于UDP通信协议。LakiBeam系列产品还支持基于HTTP协议的RESTful（Representational State Transfer）接口，能够帮助用户通过此接口主动请求雷达数据以及更改雷达当前状态。</p>
+<section id="id4">
+<h3><span class="section-number">1.1.2.1. </span>主数据流输出协议<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h3>
+<p>主数据流输出协议：Main data Stream Output Protocol，简称：MSOP。</p>
+<p>I/O 类型：设备输出，电脑解析。</p>
+<p>默认端口号为 2368。</p>
+<p>MSOP 包完成雷达测量相关数据输出，包括激光测距值、回波的反射率值、水平旋转角度值和时间戳。MSOP 包的有效载荷长度为 1248 字节，其中 42bytes 的UDP
+Header，1200bytes 的数据块区间（共 12 个 100bytes 的 Data Block），以及 4bytes的时间戳和 2bytes 的工厂信息位。
+数据包的基本结构如下图所示：</p>
+<figure class="align-default">
+<img alt="../../../_images/diagram-msop.png" src="../../../_images/diagram-msop.png" />
+</figure>
+<p>其中需要注意的是，在雷达每一圈输出的 MSOP 数据包中，最末尾的 MSOP 数据包与其他 MSOP 数据包内容并不完全相同。以20、25以及30Hz为例，当一圈数据（20，25以及30Hz下为1440组数据）输出完毕时，此时在末尾 MSOP 数据包中还剩下 96 组
+数据未能填充，即最末尾的6个 Data Block 中的数据，因此自 Data Block 6开始到Data Block 11中的所有数据均为无效数据，标志位及Azimuth均为0xFFFF，所有的无效测距数据 Invalid result也均为0xFFFF, 如下图所示：</p>
+<figure class="align-default">
+<img alt="../../../_images/diagram-msop-last-packet.png" src="../../../_images/diagram-msop-last-packet.png" />
+</figure>
+<p>例如，在下图中，获取数据包中第一个Block水平角度值的十六进制数：0x80，0x25。</p>
+<p>将数据组成16bit，为16bit无符号整型数据：0x2580。</p>
+<p>转换为10进制数据为：9600。</p>
+<p>除以100后得到结果为：96.00度。</p>
+<p>因此第一个Block的水平角度值为96.00度。</p>
+<p>同理可以得到第二个Block的水平角度值的十六进制数为：0x10，0x27，解算后得到水平角度值为100.00度。</p>
+<p>因此Block中角度的递增值为：(100 - 96) ÷ 16 = 0.25°</p>
+<p>再获取数据包中第一个Block的第2个测距数据的十六进制数：0xFC，0x08，0x31，0x00，0x00，0xFF。</p>
+<p>其中后三个字节为最后回波数据，最后回波数据的距离信息为0，代表无回波，因此这里只进行最强回波的解析。</p>
+<p>首先0x31代表最强回波的 RSSI，转换为10进制数据为：49，因此最强回波的反射强度为49。</p>
+<p>然后对最强回波的距离进行解析，将数据组成16bit，为16bit无符号整型数据：0x08FC。</p>
+<p>转换为10进制数据为：2300。</p>
+<p>将转换后的结果转化为米得到：2.3m。</p>
+<p>水平角度值为：96.00 + 0.25 × 1 = 96.25。因此第一个Block的第2个测距数据为：水平角度96.25°，距离2.3m，反射强度为49。</p>
+<figure class="align-default">
+<img alt="../../../_images/screenshot-msop_packet.png" src="../../../_images/screenshot-msop_packet.png" />
+</figure>
+</section>
+<section id="restful-api">
+<h3><span class="section-number">1.1.2.2. </span>RESTful API<a class="headerlink" href="#restful-api" title="此标题的永久链接"></a></h3>
+<p>LakiBeam系列产品支持基于HTTP协议的RESTful（Representational State Transfer）接口，用户不仅可以通过web server来与雷达建立连接、查看信息或修改设置，还可以通过RESTful接口直接获取雷达当前信息或修改雷达当前设置。RESTful接口每一项指定资源的URL、对应的HTTP动词以及HTTP状态码参见 <a class="reference external" href="https://www.richbeam.com/cn">RESTful 接口说明</a></p>
+<ul class="simple">
+<li><p>关于LakiBeam系列产品数据接口等更详细的说明，参见 <a class="reference external" href="https://gitee.com/richbeam/Lakibeam1-Userguide">LakiBeam 用户手册</a></p></li>
+</ul>
 </section>
 </section>
 </section>
@@ -115,8 +176,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
-        <a href="../index.html" class="btn btn-neutral float-left" title="1.1. 导航产品" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
-        <a href="../Lorabeam/protocol.html" class="btn btn-neutral float-right" title="1.1.2. Lorabeam" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../index.html" class="btn btn-neutral float-left" title="1. 导航产品" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="../../3d/index.html" class="btn btn-neutral float-right" title="1. Matebeam系列" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
